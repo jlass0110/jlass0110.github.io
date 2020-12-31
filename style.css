@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#sidebar {
+    white-space: nowrap;
+    height: 100%;
+    width: 10px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 20px;
+    transition: 0.25s;
+}
+#sidebar:hover {
+    width: 140px;
+}
+#sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+}
+#sidebar a:hover {
+    color: #f1f1f1;
+    font-size: 1.3em;
+}
+#socials {
+    position: absolute;
+    bottom: 0;
+    height: 180px;
+    width: 140px;
+    margin-bottom: 50px;
+}
+#socials img {
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: 0.5s;
+}
+#socials img:hover {
+    height: 35px;
+    width: 35px;
+}
+#emailme {
+    text-align: center;
+}
+#about img {
+    margin-left: 160px;
+    margin-top: 40px;
+    padding: 10px;
+    float: left;
+    width: 600px;
+    height: 600px;
+    display: block;
+    outline: 2px solid white;
+}
+#about hgroup {
+    margin-top: 80px;
+    width: 300px;
+    margin-left: 180px;
+    float: left;
+    outline: 2px solid white;
+}
+#about hgroup * {
+    text-align: center;
+}
+#about hgroup p {
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+.container {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: #575757;
+    scroll-snap-align: start;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
